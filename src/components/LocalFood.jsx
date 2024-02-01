@@ -12,7 +12,7 @@ function LocalFood() {
   }
 
   return (
-    <div className='mb-10'>
+    <div className=''>
       <div className='border-b border-black font-bold flex justify-between'>
         <div >
             <h1 className=' font-medium text-4xl'>Ghana Dishes</h1>
