@@ -14,8 +14,8 @@ function LocalFood() {
   return (
     <div className=''>
       <div className='border-b border-black font-bold flex justify-between'>
-        <div >
-            <h1 className=' font-medium text-4xl'>Ghana Dishes</h1>
+        <div className='border-b border-black font-bold mt-2 uppercase'>
+            <h1 className=''>Ghana Dishes</h1>
         </div>
         <div className=' ' onClick={displayFood}>
           {!displayLocal ? < RiArrowUpSFill size={30} /> : < TiArrowSortedDown size={30} />}   

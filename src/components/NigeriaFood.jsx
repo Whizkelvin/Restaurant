@@ -13,8 +13,8 @@ function NigeriaFood() {
   return (
     <div>
       <div className='border-b border-black font-bold flex justify-between'>
-        <div >
-            <h1 className=' font-medium text-4xl'>Nigeria DISHES</h1>
+        <div className='border-b border-black font-bold mt-2 uppercase' >
+            <h1 >Nigeria DISHES</h1>
         </div>
         <div className=' ' onClick={displayFood}>
           {!displayLocal ? < RiArrowUpSFill size={30} /> : < TiArrowSortedDown size={30} />}   
